@@ -1,0 +1,38 @@
+*{
+    background-color: lightgrey;
+}
+
+h2 {
+    color: blue;
+}
+
+.borde {
+    border: 1px solid black;
+}
+
+#section{
+    border: 1px solid green;
+}
+
+.titulo{
+    text-align: center;
+}
+a[href=""]{
+    text-decoration: none;
+}
+
+a[href="https://alexcgdesign12.com/inicio"]{
+    color: brown;
+}
+
+a[href*="https"]{
+    color: blueviolet;
+}
+
+a[href*="org"]{
+    background: orange;
+}
+
+a[href*="alexcgdesign"]{
+    background: yellow;
+}
